@@ -4,8 +4,6 @@
   padding: 0;
 }
 
-/* Global */
-
 :root {
   --blue: #363aeb;
   --green: #00a851;
@@ -17,7 +15,6 @@ body {
   font-family: sans-serif;
   color: var(--dark-text);
   background-color: var(--white);
-  overflow: hidden;
 }
 
 img {
@@ -26,8 +23,6 @@ img {
   object-fit: cover;
   margin: 0 auto;
 }
-
-/* Layout */
 
 .header {
   background-color: var(--blue);
@@ -72,8 +67,6 @@ img {
   display: grid;
 }
 
-/* Components */
-
 .dogs-list__button {
   display: grid;
   place-content: center;
@@ -95,7 +88,6 @@ img {
 .dogs-list__button:hover {
   background-color: var(--green);
   border: 1px solid var(--green);
-  /* color: var(--dark-text); */
 }
 
 .dogs-list__button--add {
@@ -144,7 +136,6 @@ img {
 }
 
 .main__dog-section button:hover {
-  /* color: var(--dark-text); */
   background-color: var(--green);
 }
 
